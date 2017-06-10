@@ -1,0 +1,18 @@
+language: objective-c
+osx_image: xcode8.3
+
+xcode_project: RssTicker/RssTicker.xcodeproj
+xcode_scheme: RssTicker/MyNewProjectTests
+
+before_install:
+- brew update
+- brew install carthage
+- carthage update
+
+script:
+- xctool -project RssTicker/RssTicker.xcodeproj -scheme RssTicker -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
+branches:
+  only:
+  - master
+  - initialize
