@@ -2,22 +2,24 @@
 //  ViewController.swift
 //  RssTicker
 //
-//  Created by 植草　智輝 on 2017/06/10.
+//  Created by 植草　智輝 on 2017/06/11.
 //  Copyright © 2017年 tomueeen93. All rights reserved.
 //
 
-import UIKit
+import Cocoa
 
-class ViewController: UIViewController {
+class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override var representedObject: Any? {
+        didSet {
+        // Update the view, if already loaded.
+        }
     }
 
 

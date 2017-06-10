@@ -2,7 +2,7 @@
 //  RssTickerTests.swift
 //  RssTickerTests
 //
-//  Created by 植草　智輝 on 2017/06/10.
+//  Created by 植草　智輝 on 2017/06/11.
 //  Copyright © 2017年 tomueeen93. All rights reserved.
 //
 
