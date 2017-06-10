@@ -7,7 +7,7 @@ xcode_scheme: RssTicker/MyNewProjectTests
 before_install:
 - brew update
 - brew install carthage
-- carthage update --platform ios
+- carthage update
 
 script:
 - xctool -project RssTicker/RssTicker.xcodeproj -scheme RssTicker -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
