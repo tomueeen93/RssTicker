@@ -6,7 +6,6 @@ xcode_scheme: RssTicker/MyNewProjectTests
 
 before_install:
 - brew update
-- brew unlink carthage
 - brew install carthage
 - carthage update --platform ios
 
